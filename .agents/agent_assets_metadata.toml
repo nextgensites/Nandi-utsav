@@ -1,0 +1,211 @@
+uploads = []
+
+[[generated]]
+id = "tBcv2Bj9bCIQk1bCTVGUZ"
+uri = "file://public/dishes/hero-idli-vada.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "C6vDoDYLcRWv9xqVfEbak"
+uri = "file://public/dishes/paneer-tikka.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "dzIEJrFjWmKrA0uHvi8ra"
+uri = "file://public/dishes/hara-bhara-kabab.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "gpfI2vc6fxvF-KCJOAgnC"
+uri = "file://public/dishes/crispy-corn.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "NTO3ou14EYugeF9Gj3q4X"
+uri = "file://public/dishes/veg-spring-rolls.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "jPF8MrgO_Bwuc7FpA3bz8"
+uri = "file://public/dishes/aloo-chaat.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "aKZqc-7yBHILD4jFlTkh-"
+uri = "file://public/dishes/dahi-puri.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "EUt_MdYG6EGsxxlSi7OoA"
+uri = "file://public/dishes/paneer-butter-masala.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "JljLItdUphiPHUx8I4sBS"
+uri = "file://public/dishes/dal-makhani.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "VmcIskEQ57sWApbxLJogR"
+uri = "file://public/dishes/palak-paneer.png"
+type = "image"
+title = "generated_image"
+
+[[outputs]]
+id = "YWKf7tzQwksrtGlkKeAkw"
+uri = "file://attached_assets/stock_images/shahi-kofta.jpg"
+type = "image"
+title = "Shahi kofta vegetable dumplings in golden saffron cashew gravy Indian curry restaurant"
+
+[[outputs]]
+id = "szejvON_IQcdEV16NTldJ"
+uri = "file://attached_assets/stock_images/kadai-vegetables.jpg"
+type = "image"
+title = "Kadai vegetables colorful mixed vegetables wok Indian curry restaurant food"
+
+[[outputs]]
+id = "fW9s2CdDbB-HF4IewNLFN"
+uri = "file://attached_assets/stock_images/chole-masala.jpg"
+type = "image"
+title = "Chole masala Punjabi chickpea curry in steel bowl dark spiced gravy Indian food"
+
+[[outputs]]
+id = "BKpeV6F1NPq-wurO6XPk7"
+uri = "file://attached_assets/stock_images/garlic-naan.jpg"
+type = "image"
+title = "Garlic naan freshly baked Indian bread black slate restaurant food photography"
+
+[[outputs]]
+id = "G2wCJ-wyE-MYzCN01lymH"
+uri = "file://attached_assets/stock_images/stuffed-paratha.jpg"
+type = "image"
+title = "Aloo paratha stuffed Indian flatbread with curd and chutney breakfast food"
+
+[[outputs]]
+id = "_Ac3JBqFltLnKTyaLEkxp"
+uri = "file://attached_assets/stock_images/veg-biryani.jpg"
+type = "image"
+title = "Veg biryani saffron basmati rice copper pot Indian restaurant royal"
+
+[[outputs]]
+id = "wLT_A90-UvGPPyTVkBRDp"
+uri = "file://attached_assets/stock_images/jeera-rice.jpg"
+type = "image"
+title = "Jeera rice cumin basmati rice bowl Indian restaurant food photography"
+
+[[outputs]]
+id = "WAPNmaIR7ej4jHeFNo9Ao"
+uri = "file://attached_assets/stock_images/puri-bhaji.jpg"
+type = "image"
+title = "Puri bhaji puffed fried bread with potato curry Indian breakfast"
+
+[[outputs]]
+id = "of-z9FLmcAykNQ_8cEaTG"
+uri = "file://attached_assets/stock_images/nandi-thali.jpg"
+type = "image"
+title = "Indian thali steel plate multiple bowls dal sabzi rice roti raita traditional meal"
+
+[[outputs]]
+id = "14DjXcmNVUhbEO_WP5N5-"
+uri = "file://attached_assets/stock_images/rajasthani-thali.jpg"
+type = "image"
+title = "Rajasthani thali dal baati churma traditional brass plate festive Indian food"
+
+[[outputs]]
+id = "GcE__ezFqpt9oJC7PIaDu"
+uri = "file://attached_assets/stock_images/mini-thali.jpg"
+type = "image"
+title = "Small Indian thali mini meal steel plate dal rice roti"
+
+[[outputs]]
+id = "_F-n67BpFBOx_0Ky4PMOE"
+uri = "file://attached_assets/stock_images/festival-thali.jpg"
+type = "image"
+title = "Grand Indian festive celebration thali many dishes brass plate shrikhand biryani"
+
+[[outputs]]
+id = "YC9j1l69ad9IYNCJ5fk4C"
+uri = "file://attached_assets/stock_images/missi-roti.jpg"
+type = "image"
+title = "Missi roti gram flour Indian flatbread rustic clay plate"
+
+[[outputs]]
+id = "hguZJ7pPU4Rb8kfqW1eUL"
+uri = "file://attached_assets/stock_images/uttapam.jpg"
+type = "image"
+title = "Uttapam thick savory rice pancake vegetable toppings South Indian food"
+
+[[outputs]]
+id = "ADH_rd7UKZVp7UgwfVmB1"
+uri = "file://attached_assets/stock_images/idli-sambar.jpg"
+type = "image"
+title = "Idli sambar soft steamed rice cakes South Indian breakfast banana leaf"
+
+[[outputs]]
+id = "nmVpNEpr5sU-rnPSVtc8I"
+uri = "file://attached_assets/stock_images/masala-dosa.jpg"
+type = "image"
+title = "Masala dosa crispy rice crepe potato filling sambar coconut chutney South Indian"
+
+[[outputs]]
+id = "MoB4ltTKN7pqNxoOVK3Du"
+uri = "file://attached_assets/stock_images/vada-sambar.jpg"
+type = "image"
+title = "Medu vada crispy lentil doughnuts sambar South Indian food photography"
+
+[[outputs]]
+id = "uxzWFa7PW25sF0_UkvXSV"
+uri = "file://attached_assets/stock_images/rava-dosa.jpg"
+type = "image"
+title = "Rava dosa paper thin crispy semolina crepe South Indian restaurant"
+
+[[outputs]]
+id = "UveCrDv762LL_ueTMXvOs"
+uri = "file://attached_assets/stock_images/bisi-bele-bath.jpg"
+type = "image"
+title = "Bisi bele bath Karnataka rice lentil dish clay bowl South Indian food"
+
+[[outputs]]
+id = "Ul1x4cctn2ZuyN8i6Vr1p"
+uri = "file://attached_assets/stock_images/gulab-jamun.jpg"
+type = "image"
+title = "Gulab jamun Indian dessert dark golden milk dumplings sugar syrup rose"
+
+[[outputs]]
+id = "Cq32oTgI8F4bZGk1o9AiD"
+uri = "file://attached_assets/stock_images/rasmalai.jpg"
+type = "image"
+title = "Rasmalai Indian dessert soft chenna patties saffron milk pistachio"
+
+[[outputs]]
+id = "uko2axvPpCpCkXnuKvXfu"
+uri = "file://attached_assets/stock_images/kheer.jpg"
+type = "image"
+title = "Kheer Indian rice pudding dessert clay pot saffron almond"
+
+[[outputs]]
+id = "xQMkU6wAKhbDTU8JO-Ted"
+uri = "file://attached_assets/stock_images/mango-lassi.jpg"
+type = "image"
+title = "Mango lassi Indian drink tall glass vibrant yellow orange yoghurt mango"
+
+[[outputs]]
+id = "he2gzcQbdHCdihUCOnOb9"
+uri = "file://attached_assets/stock_images/masala-chaas.jpg"
+type = "image"
+title = "Masala chaas spiced buttermilk Indian drink glass coriander cumin"
+
+[[outputs]]
+id = "FDkSpcLqGqr5h0K7uxAR9"
+uri = "file://attached_assets/stock_images/filter-coffee.jpg"
+type = "image"
+title = "South Indian filter coffee steel tumbler dabarah traditional dark frothy"
