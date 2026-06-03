@@ -257,6 +257,57 @@ export default function NandiUtsav() {
     @keyframes mandalaSpin { to { transform:translate(-50%,-50%) rotate(360deg); } }
     @keyframes float { 0%,100%{transform:translateY(0) rotate(0deg);} 50%{transform:translateY(-18px) rotate(8deg);} }
     ::-webkit-scrollbar { width:6px; } ::-webkit-scrollbar-track { background:#120703; } ::-webkit-scrollbar-thumb { background:#5C3317; border-radius:3px; }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 5rem;
+      align-items: center;
+      padding: 80px 5%;
+      background: #FAF0DC;
+    }
+    .about-quote-box {
+      font-size: 1.3rem;
+    }
+    .about-badge {
+      position: absolute;
+      bottom: -18px; right: -18px;
+      width: 85px; height: 85px;
+    }
+    .about-stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+    }
+
+    @media (max-width: 768px) {
+      .about-grid {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+        padding: 50px 5%;
+      }
+      .about-quote-box {
+        font-size: 1rem;
+      }
+      .about-badge {
+        width: 68px; height: 68px;
+        bottom: -14px; right: -10px;
+      }
+      .about-stats {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.6rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .about-grid {
+        padding: 40px 4%;
+        gap: 2rem;
+      }
+      .about-stats {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
   `;
 
   return (
@@ -390,10 +441,7 @@ export default function NandiUtsav() {
       </section>
 
       {/* ── ABOUT ── */}
-      <section id="about" style={{
-        padding: "80px 5%", background: "#FAF0DC",
-        display: "grid", gridTemplateColumns: "1fr 1fr", gap: "5rem", alignItems: "center",
-      }}>
+      <section id="about" className="about-grid">
         <div style={{ position: "relative" }}>
           <div style={{
             aspectRatio: "4/3",
@@ -407,14 +455,13 @@ export default function NandiUtsav() {
             }} />
             <div style={{ textAlign: "center", position: "relative", zIndex: 1, padding: "2rem" }}>
               <span style={{ fontSize: "4.5rem", display: "block", marginBottom: "1rem" }}>🪔</span>
-              <p style={{
+              <p className="about-quote-box" style={{
                 fontFamily: "'Playfair Display',serif", color: "#F5D78E",
-                fontSize: "1.3rem", fontStyle: "italic", lineHeight: 1.5,
+                fontStyle: "italic", lineHeight: 1.5,
               }}>"Food is our way of expressing devotion to the divine art of taste"</p>
             </div>
           </div>
-          <div style={{
-            position: "absolute", bottom: -18, right: -18, width: 85, height: 85,
+          <div className="about-badge" style={{
             background: "#E8751A", borderRadius: "50%",
             display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center",
             color: "#fff", fontFamily: "'Playfair Display',serif",
@@ -425,15 +472,15 @@ export default function NandiUtsav() {
         </div>
         <div>
           <p style={{ fontSize: "0.65rem", letterSpacing: "4px", textTransform: "uppercase", color: "#E8751A", fontWeight: 600, marginBottom: "0.7rem" }}>Our Story</p>
-          <h2 style={{ fontFamily: "'Playfair Display',serif", fontSize: "clamp(1.8rem,3vw,2.6rem)", fontWeight: 700, color: "#2C1810", lineHeight: 1.2 }}>A Tradition of Pure, Joyful Vegetarian Cooking</h2>
-          <div style={{ width: 50, height: 2, background: "linear-gradient(to right,#C9973A,#F2A70D)", margin: "1rem 0 2rem" }} />
+          <h2 style={{ fontFamily: "'Playfair Display',serif", fontSize: "clamp(1.6rem,3vw,2.6rem)", fontWeight: 700, color: "#2C1810", lineHeight: 1.2 }}>A Tradition of Pure, Joyful Vegetarian Cooking</h2>
+          <div style={{ width: 50, height: 2, background: "linear-gradient(to right,#C9973A,#F2A70D)", margin: "1rem 0 1.5rem" }} />
           <p style={{ color: "#5C3317", fontSize: "0.93rem", lineHeight: 1.9, fontWeight: 300, marginBottom: "1.1rem" }}>Founded with a deep reverence for India's vegetarian culinary traditions, Nandi Utsav brings you the soul of authentic flavours — crafted with love, served with joy.</p>
           <p style={{ color: "#5C3317", fontSize: "0.93rem", lineHeight: 1.9, fontWeight: 300, marginBottom: "1.5rem" }}>Every recipe is a celebration, every ingredient thoughtfully chosen, every dish cooked fresh daily. From creamy North Indian gravies to crispy South Indian snacks, our kitchen is your home.</p>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: "1rem" }}>
+          <div className="about-stats">
             {[["100%","Pure Veg"],["80+","Menu Items"],["500+","Daily Guests"]].map(([n, l]) => (
-              <div key={l} style={{ background: "#FDF6EC", padding: "1.1rem", textAlign: "center", borderTop: "2px solid #E8751A" }}>
-                <span style={{ fontFamily: "'Playfair Display',serif", fontSize: "1.9rem", fontWeight: 900, color: "#E8751A", display: "block" }}>{n}</span>
-                <span style={{ fontSize: "0.62rem", letterSpacing: 1, textTransform: "uppercase", color: "#5C3317", fontWeight: 600 }}>{l}</span>
+              <div key={l} style={{ background: "#FDF6EC", padding: "1rem 0.6rem", textAlign: "center", borderTop: "2px solid #E8751A" }}>
+                <span style={{ fontFamily: "'Playfair Display',serif", fontSize: "clamp(1.3rem,4vw,1.9rem)", fontWeight: 900, color: "#E8751A", display: "block" }}>{n}</span>
+                <span style={{ fontSize: "clamp(0.5rem,1.5vw,0.62rem)", letterSpacing: 1, textTransform: "uppercase", color: "#5C3317", fontWeight: 600 }}>{l}</span>
               </div>
             ))}
           </div>
